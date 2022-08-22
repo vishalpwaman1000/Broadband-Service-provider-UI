@@ -1,0 +1,44 @@
+.History-MainContainer {
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto";
+
+    .History-MainContainer-Header {
+        height: 10%;
+        width: 100%;
+        background-color: lightgray;
+        font-weight: 600;
+        color: #0a8183;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+
+    .History-MainContainer-Body {
+        height: 80%;
+        width: 100%;
+    }
+
+    .History-MainContainer-Footer {
+        height: 10%;
+        width: 100%;
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+
+        .MuiPaginationItem-outlinedSecondary.Mui-selected {
+            background-color: #007bff;
+            color: white;
+            border: none;
+        }
+    }
+}
+
+.HeaderRow {
+    font-size: 18px;
+    font-family: "Roboto";
+}
